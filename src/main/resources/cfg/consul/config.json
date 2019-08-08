@@ -1,0 +1,12 @@
+{
+  "bootstrap_expext" : 1,
+  "data_dir" : "/data/monitor/data/consul",
+  "pid_file" : "/data/monitor/data/consul/consul.pid",
+  "node_name" : "agent-one",
+  "bind_addr" : "127.0.0.1",
+  "client_addr" : "0.0.0.0",
+  "ports" : {
+    "http" : 7001
+  },
+  "ui" : true
+}
