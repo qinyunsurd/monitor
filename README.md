@@ -1,2 +1,2 @@
-此项目包含了prometheus,grafana,consul,node_export的搭建,一键启动,一键停止,
+此项目运用springboot+actuator+prometheus+grafana+consul,node_export的搭建,一键启动,一键停止,
 自定义指标以及simple-json的使用呢
