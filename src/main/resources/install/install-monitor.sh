@@ -12,7 +12,7 @@ mkdir -p $installdir/app/grafana
 mkdir -p $installdir/app/prometheus
 mkdir -p $installdir/app/consul
 
-tar -zxvf grfana-6.1.3.linux-amd64.tar.gz -C $installdir/app/grafana
+tar -zxvf grafana-6.1.3.linux-amd64.tar.gz -C $installdir/app/grafana
 mv $installdir/app/grafana/grafana*/*   $installdir/app/grafana
 rmdir $installdir/app/grafana/grafana*
 
